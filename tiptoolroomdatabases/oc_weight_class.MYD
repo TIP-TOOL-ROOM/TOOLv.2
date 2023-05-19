@@ -1,0 +1,51 @@
+2023-05-15  9:27:53 8 [ERROR] mysqld.exe: Table '.\t2023-05-17  6:42:49 0 [ERROR] mysqld.exe: Error writing file 'C:\xampp\mysql\data\aria_log_control' (Errcode: 22 "Invalid argument")
+2023-05-17  6:42:49 0 [ERROR] mysqld.exe: Aria engine: checkpoint failed
+abases\oc_order_history'
+2023-05-17  5:18:14 1081 [Note] Found 0 of 45 rows when repairing '.\tiptoolroomdatabases\oc_product_image'
+e repaired
+2023-05-17  3:12:44 296 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_customer_ip'
+ be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2023-05-16 23:47:47 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_product' is marked as crashed and should be repaired
+2023-05-16 23:47:47 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_product'
+:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_layout_module'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_module' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_module'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_banner' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_banner'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_banner_image' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_banner_image'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_product' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_product'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_product_discount' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_product_discount'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_product_special' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_product_special'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_product_reward' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_product_reward'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_stock_status' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_stock_status'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_product_description' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_product_description'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_product_to_store' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_product_to_store'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_manufacturer' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_manufacturer'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_information' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_information'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_information_description' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_information_description'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_information_to_store' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_information_to_store'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_extension' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_extension'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_category' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_category'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_category_description' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_category_description'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_category_to_store' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_category_to_store'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_category_path' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_category_path'
+2023-05-15  9:27:54 8 [ERROR] mysqld.exe: Table '.\tiptoolroomdatabases\oc_product_to_category' is marked as crashed and should be repaired
+2023-05-15  9:27:54 8 [Warning] Checking table:   '.\tiptoolroomdatabases\oc_product_to_category'
