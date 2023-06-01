@@ -24,7 +24,6 @@ CREATE TABLE professors (
   `first_name` varchar(45) NOT NULL,
   `last_name` varchar(45) NOT NULL,
   `address` varchar(45) NOT NULL,
-  `age` int(30) NOT NULL,
   `department` varchar(45) NOT NULL,
   `email` varchar(45) NOT NULL,
   `password`varchar(45) NOT NULL,
