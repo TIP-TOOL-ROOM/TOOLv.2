@@ -1,24 +1,31 @@
 <?php
-    // Student add to the databse
-	// Check If form submitted, insert form data into users table.
-	if(isset($_POST['Submit'])) {
-		$id_num = $_POST['id_num'];
-		$fname = $_POST['first_name'];
-		$lname = $_POST['last_namr'];
-		$address = $_POST['address'];
-		$program = $_POST['program'];
-		$email = $_POST['email'];
-		$year = $_POST['year'];
-		
-		// include database connection file
-		include_once("config.php");
-				
-		// Insert user data into table
-		$result = mysqli_query($mysqli, "INSERT INTO users(id_num,name,address,age,program,email,year) 
-		VALUES('$id_num','$name','$address','$program','$email','$year')");
-		
-		// Show message when user added
-		echo "User added successfully. <a href='index.php'>View Users</a>";
-	}
-
+// Check if the form is submitted
+if (isset($_POST['Submit'])) {
+    // Retrieve form data
+    $id_num = $_POST['id_num'];
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $address = $_POST['address'];
+    $program = $_POST['program'];
+    $email = $_POST['email'];
+    $year = $_POST['year'];
+    $password = $_POST['password'];
+    
+    // Include database connection file
+    include_once("C:\Users\johnr\Documents\GitHub\TOOLv.2\TIP_TOOLROON TESTING\thislet\PHP\config.php");
+    
+    
+    // Insert user data into the student table
+    $studentQuery = "INSERT INTO student (id_num, first_name, last_name, address, program, email, year, password) 
+                     VALUES ('$id_num', '$first_name', '$last_name', '$address', '$program', '$email', '$year', '$password')";
+    
+    if ($studentConnection->query($studentQuery) === TRUE) {
+        echo "Student user added successfully.";
+    } else {
+        echo "Error adding student user: " . $studentConnection->error;
+    }
+    
+    // Close the database connection
+    $studentConnection->close();
+}
 ?>
