@@ -6,22 +6,23 @@ if (isset($_POST['Submit'])) {
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
     $address = $_POST['address'];
+    $age = $_POST['age'];
     $department = $_POST['department'];
     $email = $_POST['email'];
     $password = $_POST['password'];
     
     // Include database connection file
-    include_once("C:\Users\johnr\Documents\GitHub\TOOLv.2\TIP_TOOLROON TESTING\thislet\PHP\config.php");
-    
+    include_once("config.php");
     
     // Insert user data into the professors table
-    $professorQuery = "INSERT INTO professors (id_num, first_name, last_name, address, department, email, password) 
-                      VALUES ('$id_num', '$first_name', '$last_name', '$address', '$department', '$email', '$password')";
+    $professorQuery = "INSERT INTO professors (id_num, first_name, last_name, address, age, department, email, password) 
+                       VALUES ('$id_num', '$first_name', '$last_name', '$address', '$age', '$department', '$email', '$password')";
     
-    if ($professorConnection->query($professorQuery) === TRUE) {
-        echo "Professor user added successfully.";
+    $result = $professorConnection->query($professorQuery);
+    if ($result === TRUE) {
+        echo "Professor added successfully.";
     } else {
-        echo "Error adding professor user: " . $professorConnection->error;
+        echo "Error adding professor: " . $professorConnection->error;
     }
     
     // Close the database connection

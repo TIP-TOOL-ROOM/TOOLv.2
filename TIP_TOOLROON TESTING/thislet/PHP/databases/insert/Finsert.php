@@ -20,7 +20,8 @@ if (isset($_POST['Submit'])) {
     $facultyQuery = "INSERT INTO faculty (id_num, first_name, last_name, address, department, email, year, password) 
                     VALUES ('$id_num', '$first_name', '$last_name', '$address', '$department', '$email', '$year', '$password')";
     
-    if ($facultyConnection->query($facultyQuery) === TRUE) {
+    $result = $facultyConnection->query($facultyQuery);
+    if ($result === TRUE) {
         echo "Faculty user added successfully.";
     } else {
         echo "Error adding faculty user: " . $facultyConnection->error;
