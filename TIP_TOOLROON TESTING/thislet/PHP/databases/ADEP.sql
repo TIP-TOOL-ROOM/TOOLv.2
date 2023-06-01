@@ -1,6 +1,6 @@
 -- Create database for student
-create database student_db;
-use student_db;
+CREATE DATABASE student_db;
+USE student_db;
 
 CREATE TABLE student (
   `id_num` int(30) NOT NULL,
@@ -59,5 +59,15 @@ CREATE TABLE items (
   `description` varchar(45) NOT NULL,
   `quantity` int(30) NOT NULL,
   `category` varchar(45) NOT NULL,
+  PRIMARY KEY  (`id_num`)
+);
+
+CREATE DATABASE admin_db;
+USE admin_db;
+
+CREATE TABLE admin (
+  `id_num` int(30) NOT NULL,
+  `username` varchar(45) NOT NULL,
+  `password` varchar(45) NOT NULL,
   PRIMARY KEY  (`id_num`)
 );
